@@ -117,7 +117,6 @@ public class Battleship {
             }
 
             if (locationCells[i] == shipSize) {
-                System.out.println("test1");
                 return true;  // ship is alive
 
             }
@@ -129,7 +128,6 @@ public class Battleship {
             }
 
             if (locationCells[i] == shipSize) {
-                System.out.println("test2");
                 return true;  // ship is alive
             }
         }
